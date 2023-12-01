@@ -1,0 +1,31 @@
+.about-container{
+    flex: 1;
+    margin-right: 50px;
+    position: relative;
+}
+.about-heading{
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.about-content{
+    text-align: justify;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    margin: 20px auto;
+}
+.about-title{
+    color: #f1b722;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+@media (min-width: 740px) and (max-width: 1023px){
+    .about-container{
+        margin-right: 0;
+    }
+}
+@media (max-width: 740px){
+    .about-container{
+        margin-right: 0;
+    }
+}

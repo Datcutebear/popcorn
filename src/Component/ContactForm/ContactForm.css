@@ -1,0 +1,68 @@
+.contact-form-container{
+    position: relative;
+}
+.contact-heading-h3{
+    color: var(--text-color);
+    font-weight: 600;
+}
+.contact-heading-h1{
+    color: var(--text-color);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.contact-input,
+.contact-textarea{
+    margin: 5px 0;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #424754;
+    padding: 5px 0;
+    color: var(--text-color);
+    font-size: 1.6rem;
+}
+.contact-textarea{
+    resize: none;
+}
+.contact-btn{
+    margin: 20px 0;
+    padding: 5px 20px;
+    width: fit-content;
+    border: 0;
+    outline: none;
+    border-radius: var(--border-radius);
+    font-size: 1.6rem;
+    background-color: #c51d1d;
+    color: #fff;
+    font-weight: 600;
+    transition: .5s;
+}
+.contact-btn:hover {
+    box-shadow: 0px 0px 7px 8px #ff00004d;
+}
+.mail-icon{
+    margin-right: 5px;
+    width: 2rem !important;
+    height: 2rem !important;
+}
+.alert-info,
+.alert-danger{
+    display: none;
+}
+
+.alert-info.active,
+.alert-danger.active{
+    display: block;
+    animation: fadeIn .5s ease-in;
+}
+
+@keyframes fadeIn{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

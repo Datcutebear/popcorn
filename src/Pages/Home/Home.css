@@ -1,0 +1,37 @@
+#content {
+    background-color: #1E2129;
+    padding-top: 30px;
+}
+#content .container {
+    max-width: 1120px;
+    border-radius: var(--border-radius);
+}
+.lists .listTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding: 0 7px;
+}
+
+.lists .listTitle h2 {
+    color: var(--title-color);
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.lists .listTitle a {
+    background-color: #1D7087;
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+    height: 22px;
+    border-radius: var(--border-radius);
+    font-size: 1.3rem;
+    transition: all .5s ease;
+}
+.lists .listTitle a:hover{
+    background-color: #144c5c;
+}
+
+

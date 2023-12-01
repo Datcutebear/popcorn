@@ -1,0 +1,40 @@
+    .searchmovie{
+        position: relative;
+        width: 100%;
+        border-radius: var(--border-radius);
+        /* border: 1px solid #424754; */
+        padding-left: 10px;
+    }
+    .search_input{
+        border: none;
+        outline: none;
+        height: 30px;
+        width: 100%;
+        font-size: 1.3rem;
+        line-height: 1.42857143;
+        color: #646b7f;
+        background: 0 0;
+    }
+    .addcontent {
+        display: flex;
+        align-items: center;
+    }
+    .icon-close {
+        color: white;
+        font-size: 11px;
+    }
+    .icon-loading {
+        color: white;
+        font-size: 11px;
+    }
+    .view-all-results {
+        list-style: none;
+        background: #00acc1;
+        text-align: center;
+    }
+    .view-all-results a {
+        display: block;
+        color: white;
+        padding: 7px 5px;
+        font-size: 13px;
+    }

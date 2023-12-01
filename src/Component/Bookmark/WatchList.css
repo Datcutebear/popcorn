@@ -1,0 +1,31 @@
+.watchlist-container{
+    max-width: 1120px;
+    margin: 20px auto;
+}
+.watchlist-heading{
+    margin-bottom: 20px;
+}
+.watchlist-title{
+    color: var(--title-color);
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.watchlist-desc{
+    color: var(--text-color);
+    font-size: 1.6rem;
+}
+.delete-btn{
+    border: 0;
+    height: 30px;
+    outline: none;
+    border-radius: var(--border-radius);
+    margin-bottom: 20px;
+    width: 50%;
+    align-self: center;
+    background-color: #c51d1d;
+    color: #fff;
+    transition: .5s;
+}
+.delete-btn:hover {
+    box-shadow: 0px 0px 7px 8px #ff00004d;
+}

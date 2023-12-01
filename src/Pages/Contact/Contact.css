@@ -1,0 +1,31 @@
+.contact-container{
+    max-width: 1120px;
+    margin: 20px auto;
+}
+.contact-heading{
+    margin-top: -150px;
+    margin-bottom: 150px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+@media (min-width: 740px) and (max-width: 1023px){
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-banner{
+        height: 200px;
+    }
+}
+@media (max-width: 740px){
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-banner{
+        height: 150px;
+    }
+    .contact-heading{
+        margin-top: -100px;
+    }
+}

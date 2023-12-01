@@ -1,0 +1,10 @@
+.warrper {
+    width: 100%;
+    min-height: 100px;
+    border-radius: 8px;
+    background-color: white;
+    position: absolute;
+    top: 48px;
+    z-index: 9999;
+    padding-top: 10px;
+}

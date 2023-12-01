@@ -1,0 +1,38 @@
+.movie-container{
+    padding: 5px 10px;
+    border-bottom: .5px solid #343946;
+    transition: .5s;
+}
+.movie-container:last-child{
+    border-bottom: 0;
+}
+
+.movie-poster{
+    width: 30px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 10px;
+    border-radius: var(--border-radius);
+}
+
+.movie-name{
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.movie-vote-count{
+    font-size: 1.1rem;
+    color: #777777;
+}
+.movie-container:hover{
+    background-color: rgb(40, 44, 54);
+}
+.movie-next-icon{
+    width: 2rem !important;
+    height: 2rem !important;
+    transition: .5s;
+}
+.movie-container:hover .movie-next-icon{
+    color: #fff !important;
+}
+

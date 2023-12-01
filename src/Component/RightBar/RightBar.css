@@ -1,0 +1,88 @@
+.rightbar{
+    display: list-item;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+}
+.titlerightbar{
+    font-size: large;
+    color: white;
+    align-items: center;
+}
+.vote-container{
+    display: flex;
+    align-items: center;
+}
+.vote-average{
+    color: var(--text-color);
+    background-color: #343946b0;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 3px 8px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--text-color);
+    width: fit-content;
+    margin-right: 10px;
+}
+.vote-icon{
+    width: 3rem !important;
+    height: 3rem !important;
+    color: #ffc700;
+}
+.bookmark-btn{
+    margin: 20px 0;
+    width: 100%;
+    color: #fff;
+    background-color: #00acc1;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    height: 35px;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    font-size: 1.6rem;
+    transition: all .5s ease;
+}
+.bookmark-btn:hover{
+    background-color: #0491a3;
+}
+.btn-clicked{
+    background-color: #292d38;
+    color: var(--text-color);
+}
+.btn-clicked:hover{
+    background-color: #292d38;
+}
+.bookmark-icon{
+    width: 2rem !important;
+    height: 2rem !important;
+    margin-right: 5px;
+}
+.trailer-container{
+    margin-bottom: 20px;
+}
+.lists-rightbar{
+    border: .5px solid #343946;
+    border-radius: var(--border-radius);
+    margin-bottom: 20px;
+}
+.listTitle-rightbar{
+    background-color: #343946;
+    padding: 10px;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.ant-modal-header {
+    display: none !important;
+}
+.ant-modal-body span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #494b50;
+}

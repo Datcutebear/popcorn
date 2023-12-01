@@ -1,0 +1,19 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Nunito Sans', sans-serif;
+}
+:root{
+   --body-bg: #1e2129; 
+   --title-color: #00acc1;
+   --text-color: #B9BDC7;
+   --border-radius: 5px;
+}
+html{
+   font-size: 62.5%;
+}
+body {
+   background-color: var(--body-bg) !important;
+}
+

@@ -1,0 +1,57 @@
+.other-comment-container{
+    width: 100%;
+}
+.other-comment-info{
+    margin-left: 10px;
+    width: 100%;
+}
+.user-comment-name{
+    font-weight: 700;
+    color: #385898;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.user-comment-name:hover{
+    text-decoration: underline;
+}
+
+.user-comment-content{
+    margin-top: -15px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.user-comment-time{
+    font-size: 1rem;
+    color: #333;
+}
+.action-btn{
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    font-size: 1.1rem;
+    color: #385898;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.action-btn:hover{
+    text-decoration: underline;
+}
+.replies{
+    width: 100%;
+}
+.like-icon{
+    color: #385898;
+    margin-right: 3px;
+}
+.like-count{
+    font-size: 1.2rem;
+    color: #385898;
+    margin-right: 10px;
+}
+.children-form {
+    flex-direction: column;
+}
+/* .comment-children {
+    width: 90%;
+    margin-left: 20px;
+} */

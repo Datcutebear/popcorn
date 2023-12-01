@@ -1,0 +1,6 @@
+.lists .movieList .row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+}
